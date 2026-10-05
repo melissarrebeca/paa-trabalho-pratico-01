@@ -1,5 +1,7 @@
 # Estudo comparativo de Quicksort
 
+Link para acesso ao Overleaf: https://www.overleaf.com/read/yhccndbckxzp#a79dbd
+
 Trabalho prático de Projeto e Análise de Algoritmos (PUC Minas). O trabalho compara experimentalmente três versões do Quicksort em tempo de execução, comparações, trocas e deslocamentos:
 
 - **a) Quicksort recursivo**: partição de Hoare/Ziviani com pivô no primeiro elemento.
