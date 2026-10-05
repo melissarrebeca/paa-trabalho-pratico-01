@@ -1,4 +1,5 @@
-# Estudo comparativo de Quicksort
+# Estudo comparativo do Quicksort
+> Integrantes: Bruna de Lima Furtado e Melissa Rebeca de Souza Araujo
 
 Link para acesso ao Overleaf: https://www.overleaf.com/read/yhccndbckxzp#a79dbd
 
