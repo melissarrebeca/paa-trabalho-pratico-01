@@ -1,0 +1,26 @@
+% Gerado por scripts/graficos.py. Requer \usepackage{booktabs}.
+\begin{table}[htbp]
+  \centering
+  \small
+  \setlength{\tabcolsep}{4pt}
+  \caption{Comparação entre as versões com n = 100.000 (tempo em ms, média de 10 repetições). Movim. = trocas + deslocamentos.}
+  \label{tab:comparacao-n100000}
+  \begin{tabular}{llrrrrrr}
+    \toprule
+    Tipo de vetor & Versão & Tempo & Desvio & Comparações & Trocas & Deslocamentos & Movim. \\
+    \midrule
+    Aleatório & Recursivo & 16,552 & 1,259 & 2.701.454 & 412.539 & 0 & 412.539 \\
+    Aleatório & Híbrido & 15,282 & 1,909 & 2.569.948 & 325.360 & 138.447 & 463.807 \\
+    Aleatório & Híbrido + mediana & 12,427 & 1,445 & 1.905.243 & 331.453 & 208.763 & 540.216 \\
+    Ordenado & Recursivo & 6.161,073 & 328,213 & 5.000.149.998 & 99.999 & 0 & 99.999 \\
+    Ordenado & Híbrido & 6.505,764 & 751,903 & 5.000.249.945 & 99.991 & 0 & 99.991 \\
+    Ordenado & Híbrido + mediana & 1,732 & 0,206 & 1.424.585 & 8.191 & 0 & 8.191 \\
+    Inverso & Recursivo & 8.468,979 & 610,131 & 5.000.199.996 & 99.999 & 0 & 99.999 \\
+    Inverso & Híbrido & 4.484,000 & 612,771 & 5.000.299.969 & 99.991 & 28 & 100.019 \\
+    Inverso & Híbrido + mediana & 1,155 & 0,145 & 1.424.596 & 58.192 & 0 & 58.192 \\
+    Repetidos & Recursivo & 7,245 & 0,356 & 2.054.696 & 537.786 & 0 & 537.786 \\
+    Repetidos & Híbrido & 7,031 & 0,608 & 1.927.753 & 424.049 & 4.308 & 428.357 \\
+    Repetidos & Híbrido + mediana & 5,860 & 0,072 & 1.662.028 & 403.601 & 13.111 & 416.712 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

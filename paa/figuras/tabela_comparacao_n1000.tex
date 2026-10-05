@@ -1,0 +1,26 @@
+% Gerado por scripts/graficos.py. Requer \usepackage{booktabs}.
+\begin{table}[htbp]
+  \centering
+  \small
+  \setlength{\tabcolsep}{4pt}
+  \caption{Comparação entre as versões com n = 1.000 (tempo em ms, média de 10 repetições). Movim. = trocas + deslocamentos.}
+  \label{tab:comparacao-n1000}
+  \begin{tabular}{llrrrrrr}
+    \toprule
+    Tipo de vetor & Versão & Tempo & Desvio & Comparações & Trocas & Deslocamentos & Movim. \\
+    \midrule
+    Aleatório & Recursivo & 0,074 & 0,050 & 13.843 & 2.667 & 0 & 2.667 \\
+    Aleatório & Híbrido & 0,029 & 0,008 & 12.518 & 1.785 & 1.470 & 3.255 \\
+    Aleatório & Híbrido + mediana & 0,061 & 0,053 & 10.836 & 1.757 & 2.016 & 3.773 \\
+    Ordenado & Recursivo & 0,565 & 0,274 & 501.498 & 999 & 0 & 999 \\
+    Ordenado & Híbrido & 0,390 & 0,104 & 502.445 & 991 & 0 & 991 \\
+    Ordenado & Híbrido + mediana & 0,011 & 0,000 & 7.973 & 104 & 0 & 104 \\
+    Inverso & Recursivo & 0,437 & 0,154 & 501.996 & 999 & 0 & 999 \\
+    Inverso & Híbrido & 0,890 & 0,465 & 502.969 & 991 & 28 & 1.019 \\
+    Inverso & Híbrido + mediana & 0,011 & 0,000 & 7.996 & 606 & 0 & 606 \\
+    Repetidos & Recursivo & 0,030 & 0,010 & 10.557 & 3.822 & 0 & 3.822 \\
+    Repetidos & Híbrido & 0,042 & 0,035 & 9.315 & 2.696 & 44 & 2.740 \\
+    Repetidos & Híbrido + mediana & 0,020 & 0,009 & 8.936 & 2.414 & 124 & 2.538 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

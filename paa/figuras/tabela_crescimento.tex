@@ -1,0 +1,20 @@
+% Gerado por scripts/graficos.py. Requer \usepackage{booktabs}.
+\begin{table}[htbp]
+  \centering
+  \small
+  \setlength{\tabcolsep}{4pt}
+  \caption{Quicksort recursivo em vetores ordenados com n dobrando. As razões são em relação à linha anterior.}
+  \label{tab:crescimento}
+  \begin{tabular}{rrrrrr}
+    \toprule
+    n & Comparações & Razão & Tempo (ms) & Desvio & Razão \\
+    \midrule
+    1.000 & 501.498 & -- & 0,476 & 0,174 & -- \\
+    2.000 & 2.002.998 & 3,99 & 1,433 & 0,216 & 3,01 \\
+    4.000 & 8.005.998 & 4,00 & 6,015 & 1,285 & 4,20 \\
+    8.000 & 32.011.998 & 4,00 & 21,653 & 1,138 & 3,60 \\
+    16.000 & 128.023.998 & 4,00 & 90,149 & 3,636 & 4,16 \\
+    32.000 & 512.047.998 & 4,00 & 361,984 & 5,587 & 4,02 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
