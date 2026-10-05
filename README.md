@@ -8,14 +8,6 @@ Trabalho prático de Projeto e Análise de Algoritmos (PUC Minas). O trabalho co
 - **b) Quicksort híbrido**: não particiona subvetores com menos de **M** elementos e termina com uma única passada de Insertion Sort.
 - **c) Quicksort híbrido com mediana-de-três**: o híbrido com o pivô escolhido entre o primeiro, o central e o último elemento.
 
-
-## Requisitos
-
-- **Java 11 ou superior.** O Maven não precisa estar instalado: o `./mvnw` baixa o Maven na primeira execução.
-- **Python 3 com pandas e matplotlib**, só para gerar os gráficos.
-
-## Como usar
-
 ### Testes
 
 Os testes conferem três coisas:
@@ -23,7 +15,7 @@ Os testes conferem três coisas:
 - **Casos de borda:** vetor vazio, 1 e 2 elementos, todos iguais, e tamanhos em volta de M.
 - **Regra dos contadores:** por exemplo, o Insertion Sort em vetor ordenado faz exatamente n − 1 comparações.
 
-### 2. Experimentos
+### Experimentos
 
 | Experimento | O que faz |
 |---|---|
